@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fe15c8-7e1a-4974-9afc-4e71a0b6a633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Satisfactory.dir/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/master.lua" beforeDir="false" afterPath="$PROJECT_DIR$/master.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668779364140</updated>
       <workItem from="1668779369159" duration="359000" />
-      <workItem from="1668779897517" duration="4762000" />
+      <workItem from="1668779897517" duration="4929000" />
     </task>
     <servers />
   </component>

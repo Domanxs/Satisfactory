@@ -94,9 +94,13 @@ function SetSignText(sign, mainText, secondaryText)
     SetSignSecondaryText(sign, mainText)
 end
 
---Load Drive
---fs = filesystem
---fs.initFileSystem("/dev")
---fs.mount("/dev/" .. fs.childs("/dev")[1], "/")
---program = fs.loadFile("program.lua")()
---program = nil
+-- Init Global Code
+--local card = computer.getPCIDevices(findClass("FINInternetCard"))[1]
+--local req = card:request("https://raw.githubusercontent.com/Domanxs/Satisfactory/main/master.lua", "GET", "")
+--local _, libdata = req:await()
+--filesystem.initFileSystem("/dev")
+--filesystem.mount("/dev/A1264C924E824F197781DE99984BCEB8", "/")
+--local file = filesystem.open("mainProgram.lua", "w")
+--file:write(libdata)
+--file:close()
+--filesystem.doFile("mainProgram.lua")
