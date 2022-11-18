@@ -91,6 +91,7 @@ end
 
 function SetSignText(sign, mainText, secondaryText)
     SetSignMainText(sign, secondaryText)
+    event.pull(0.1)
     SetSignSecondaryText(sign, mainText)
 end
 
